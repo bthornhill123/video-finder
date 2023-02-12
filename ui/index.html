@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <title>YouTubeBuddy | Ben Thornhill</title>
+</head>
+
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>YouTubeBuddy</strong></li>
+        </ul>
+        <ul>
+            <li><strong>Ben Thornhill</strong></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section>
+            <form>
+                <input type="search" id="search-input" placeholder="Cute cats..." autofocus>
+                <button id="search-button" onclick="performSearch()" type="submit">Search</button>
+            </form>
+        </section>
+
+        <section id="search-results"></section>
+    </main>
+</body>
+
+</html>
